@@ -5,7 +5,7 @@ import iconreacton from "../../../assets/images/icon-reaction.svg";
 import iconmemory from "../../../assets/images/icon-memory.svg";
 import iconverbal from "../../../assets/images/icon-verbal.svg";
 import iconvisual from "../../../assets/images/icon-visual.svg";
-import data from "../../../../../data.json";
+import data from "../../../data.json";
 
 type Props = {};
 

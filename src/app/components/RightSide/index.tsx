@@ -1,15 +1,16 @@
 import React from "react";
 import "./styles.scss";
 import StateComponent from "./components/stateComponent";
-import iconreacton from "../../../assets/images/icon-reaction.svg";
-import iconmemory from "../../../assets/images/icon-memory.svg";
-import iconverbal from "../../../assets/images/icon-verbal.svg";
-import iconvisual from "../../../assets/images/icon-visual.svg";
-import data from "../../../data.json";
+import iconreacton from "../../../../public/images/icon-memory.svg";
+// import iconmemory from "../../../assets/images/icon-memory.svg";
+// import iconverbal from "../../../assets/images/icon-verbal.svg";
+// import iconvisual from "../../../assets/images/icon-visual.svg";
+import data from "../../../../data.json";
 
 type Props = {};
 
 export default function RightSide({}: Props) {
+  console.log("data:", data[0].icon);
   return (
     <div className="mainRight">
       <div className="titleRight">

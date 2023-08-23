@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import "./styles.scss";
-import { ClassElement } from "typescript";
 
 type Props = {
   img: string;

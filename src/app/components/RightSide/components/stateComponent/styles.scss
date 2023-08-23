@@ -1,0 +1,17 @@
+.stateContainer {
+  margin: 10px 0px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.imgText {
+  display: flex;
+}
+
+.noteStyles {
+  color: hsl(224, 30%, 27%);
+}

@@ -7,7 +7,7 @@ type Props = {
   img: string;
   altImg: string;
   title: string;
-  note: string;
+  note: number;
   props: string;
 };
 

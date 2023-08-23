@@ -5,6 +5,7 @@ import iconreacton from "../../../assets/images/icon-reaction.svg";
 import iconmemory from "../../../assets/images/icon-memory.svg";
 import iconverbal from "../../../assets/images/icon-verbal.svg";
 import iconvisual from "../../../assets/images/icon-visual.svg";
+import data from "../../../../../data.json";
 
 type Props = {};
 
@@ -16,31 +17,31 @@ export default function RightSide({}: Props) {
       </div>
       <div className="statesContainer">
         <StateComponent
-          img={iconreacton}
-          altImg="Reaction image"
-          title="Memory"
-          note="80"
+          img={data[0].icon}
+          altImg={data[0].category}
+          title={data[0].category}
+          note={data[0].score}
           props={"firstBackground"}
         />
         <StateComponent
-          img={iconmemory}
-          altImg="Memory image"
-          title="Reaction"
-          note="92"
+          img={data[1].icon}
+          altImg={data[1].category}
+          title={data[1].category}
+          note={data[1].score}
           props={"secondBackground"}
         />
         <StateComponent
-          img={iconverbal}
-          altImg="Verbal image"
-          title="Verbal"
-          note="61"
+          img={data[2].icon}
+          altImg={data[2].category}
+          title={data[2].category}
+          note={data[2].score}
           props={"thirdBackground"}
         />
         <StateComponent
-          img={iconvisual}
-          altImg="Visual image"
-          title="Visual"
-          note="72"
+          img={data[3].icon}
+          altImg={data[3].category}
+          title={data[3].category}
+          note={data[3].score}
           props={"fourthBackground"}
         />
       </div>
